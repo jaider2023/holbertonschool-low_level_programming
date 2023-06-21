@@ -1,15 +1,27 @@
 # include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
-void main {
-char[] alfabeto;
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 
-alfabeto = 'abcdefghijklmnopqrstuwxyz';
+int main(void)
+{
+int i = "a";
+int j = "A";
 
-
-printf(putchar(alfabeto));
-
-
-
-
+while (i <= "z")
+{
+putchar(i);
+i++;
 }
-
+while (j <= "Z")
+{
+putchar(j);
+j++;
+}
+putchar ("\n");
+return (0);
