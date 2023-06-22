@@ -11,7 +11,7 @@ for (a = 97; a <= 123; a++)
 {
 putchar(a);
 }
-if (a != 'q' && a != 'e')
+if (a != 113 && a != 101)
 {
 putchar(a);
 }
