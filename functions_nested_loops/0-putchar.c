@@ -5,6 +5,7 @@
  */
 int main(void)
 {
+// Code to print "_putchar" and a new line
 _putchar('_');
 _putchar('p');
 _putchar('u');
