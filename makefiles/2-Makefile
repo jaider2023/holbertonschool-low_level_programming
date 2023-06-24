@@ -1,0 +1,57 @@
+# Makefile for building the 'school' executable
+#
+#
+#
+# # Compiler
+#
+# CC := gcc
+#
+#
+#
+# # Source files
+#
+# SRC := $(wildcard *.c)
+#
+#
+#
+# # Object files
+#
+# OBJ := $(SRC:.c=.o)
+#
+#
+#
+# # Executable name
+#
+# NAME := school
+#
+#
+#
+# # Default rule
+#
+# all: $(NAME)
+#
+#
+#
+# # Compile and link the executable
+#
+# $(NAME): $(OBJ)
+#
+# 	$(CC) -o $(NAME) $(OBJ)
+#
+#
+#
+# 	# Rule to compile source files into object files
+#
+# 	%.o: %.c
+#
+# 		$(CC) -c $< -o $@
+#
+#
+#
+# 		# Clean up generated files
+#
+# 		clean:
+#
+# 			rm -f $(OBJ) $(NAME)
+#
+#
